@@ -60,7 +60,7 @@ const DelData = () => {
         <label htmlFor="std_id" className="w-[85%]">
           <h3 className="font-semibold">{t("id")}</h3>
           <input
-            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1"
+            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1 dark:text-black"
             type="text"
             ref={inputStdId}
             placeholder="77788999"

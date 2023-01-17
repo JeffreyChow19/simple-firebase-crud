@@ -123,7 +123,7 @@ const AddData = () => {
           <h3 className="font-semibold">{t("firstname")}</h3>
           <input
             type="text"
-            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1"
+            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1 dark:text-black"
             ref={inputFirstName}
             name="firstname"
             placeholder="John"
@@ -135,7 +135,7 @@ const AddData = () => {
           <h3 className="font-semibold">{t("lastname")}</h3>
           <input
             type="text"
-            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1"
+            className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1 dark:text-black"
             ref={inputLastName}
             placeholder="Doe"
             name="lastname"
@@ -179,7 +179,7 @@ const AddData = () => {
         <label htmlFor="std_id" className="w-[85%]">
           <h3 className="font-semibold">{t("id")}</h3>
           <input
-            className="w-[100%] border-[1.5px] pl-3 rounded-[8px] border-gray-400 p-1 mt-1"
+            className="w-[100%] border-[1.5px] pl-3 rounded-[8px] border-gray-400 p-1 mt-1 dark:text-black"
             type="text"
             ref={inputStdId}
             placeholder="77788999"

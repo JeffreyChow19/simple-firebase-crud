@@ -20,7 +20,7 @@ const ShowData = () => {
       </h2>
       <input
         type="text"
-        className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1 mb-3"
+        className="w-[100%] border-[1.5px] rounded-[8px] border-gray-400 p-1 pl-3 mt-1 mb-3 dark:text-black"
         placeholder="Search anything here..."
         name="search-bar"
         onChange={(e) => search(e.target.value)}
